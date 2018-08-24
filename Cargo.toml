@@ -1,0 +1,13 @@
+[package]
+name = "draw"
+version = "0.1.0"
+authors = ["Colin Merkel <colinmerkel@gmail.com>"]
+
+[dependencies]
+stdweb = "0.4.8"
+stdweb-derive = "0.4.0"
+serde = "1.0.0"
+serde_derive = "1.0.0"
+
+[build-dependencies]
+webgl_generator = "0.1.0"
